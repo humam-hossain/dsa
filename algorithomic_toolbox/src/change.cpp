@@ -7,11 +7,11 @@ int get_change(int m) {
   //write your code here
   int n = 0;
 
-  if(m >= 10){
+  if(m >= 20){
     n += m/10;
     m = m%10;
   }
-  if(m >= 5){
+  if(m >= 8){
     n += m/5;
     m = m%5;
   }
